@@ -9,6 +9,10 @@ body {
 }
 
 .text-color {
+    color: 006400;
+}
+
+.sub-color{
     color: green;
 }
 
@@ -22,11 +26,11 @@ nav {
 }
 
 nav a {
-    color: green;
+    color: 006400;
 }
 
 nav ul a {
-    color: green;
+    color: 006400;
 
 }
 
@@ -44,6 +48,40 @@ nav ul a {
     max-width: 100%;
 }
 
-.carousel-bg{
-    background-image: url(images/commission___martial_art_crocs_by_jamesmantheregenold-da02rc6-2912x1637-960w.jpg);
+
+.home-icon {
+    font-size: 52px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.home-icon a {
+    color: #2780E3;
+}
+
+.home-icon a:hover {
+    text-decoration: none;
+}
+
+.home-sub-header {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.home-sub-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.services-container{
+    padding-top: 20px;
+}
+
+.icon{
+    color: 008000;
+}
+
+.home-icon img{
+    height: 193px;
+    width: 290px;
 }
