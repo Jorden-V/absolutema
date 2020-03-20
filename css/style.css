@@ -1,0 +1,49 @@
+/*------------------------ General styling ----------------------------------*/
+.center {
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%!important;
+}
+
+.text-color {
+    color: green;
+}
+
+.slider-color{
+    background-color: rgba(64, 232, 26, 0.7);
+}
+
+/*------------------------ Navbar ----------------------------------*/
+nav {
+    background-color: rgba(64, 232, 26, 0.7);
+}
+
+nav a {
+    color: green;
+}
+
+nav ul a {
+    color: green;
+
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+/*------------------------ header ----------------------------------*/
+
+.main-section{
+    padding-top: 5px;
+}
+
+.hero-image img{
+    max-width: 100%;
+}
+
+.carousel-bg{
+    background-image: url(images/commission___martial_art_crocs_by_jamesmantheregenold-da02rc6-2912x1637-960w.jpg);
+}
