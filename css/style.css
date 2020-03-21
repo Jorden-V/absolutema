@@ -9,29 +9,20 @@ body {
 }
 
 .text-color {
-    color: 006400;
+    color: white;
 }
 
 .sub-color{
-    color: green;
+    color: white;
 }
 
-.slider-color{
+/* .slider-color{
     background-color: rgba(64, 232, 26, 0.7);
-}
+} */
 
 /*------------------------ Navbar ----------------------------------*/
 nav {
     background-color: rgba(64, 232, 26, 0.7);
-}
-
-nav a {
-    color: 006400;
-}
-
-nav ul a {
-    color: 006400;
-
 }
 
 .navbar-brand {
@@ -42,10 +33,15 @@ nav ul a {
 
 .main-section{
     padding-top: 5px;
-}
+    background-color: #666;
+} 
 
 .hero-image img{
+    text-align: center;
+    max-height: 378px;
     max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 
@@ -84,4 +80,12 @@ nav ul a {
 .home-icon img{
     height: 193px;
     width: 290px;
+}
+
+.card {
+    max-width: 356px;
+}
+.card .card-image img {
+    max-height: 255px;
+    min-height: 255px;
 }
