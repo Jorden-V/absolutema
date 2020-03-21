@@ -5,14 +5,14 @@
 
 html,
 body {
-    height: 100%!important;
+    height: 100% !important;
 }
 
 .text-color {
     color: white;
 }
 
-.sub-color{
+.sub-color {
     color: white;
 }
 
@@ -31,12 +31,12 @@ nav {
 
 /*------------------------ header ----------------------------------*/
 
-.main-section{
+.main-section {
     padding-top: 5px;
     background-color: #666;
-} 
+}
 
-.hero-image img{
+.hero-image img {
     text-align: center;
     max-height: 378px;
     max-width: 100%;
@@ -69,23 +69,38 @@ nav {
     margin-bottom: 30px;
 }
 
-.services-container{
+.services-container {
     padding-top: 20px;
+    background-color: #666;
+    color: white;
 }
 
-.icon{
+.icon {
     color: 008000;
 }
 
-.home-icon img{
+.home-icon img {
     height: 193px;
     width: 290px;
 }
 
 .card {
-    max-width: 356px;
+    max-width: 563px;
 }
+
 .card .card-image img {
     max-height: 255px;
     min-height: 255px;
+    object-fit: cover;
+}
+
+.cards-background {
+    background-color: #666;
+}
+
+.horizontal-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
