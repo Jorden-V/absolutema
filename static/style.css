@@ -3,10 +3,15 @@
     text-align: center;
 }
 
-html,
 body {
-    height: 100% !important;
-}
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
 
 .text-color {
     color: white;
@@ -103,4 +108,18 @@ nav {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.before-nav{
+    margin-bottom: 0px;
+}
+
+.page-footer {
+    background-color: rgba(64, 232, 26, 0.7) ;
+}
+
+.footer-copyright img{
+    max-width: 50px;
+    max-height: 50px;
+    float: right;
 }
